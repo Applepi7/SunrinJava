@@ -1,0 +1,10 @@
+
+public class CircleExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Circle obj = new Circle(2, 3, 30);
+		System.out.println("¿ø obj : " + obj);
+	}
+
+}

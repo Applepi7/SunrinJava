@@ -1,0 +1,25 @@
+package java20416ex01;
+
+import java.util.Scanner;
+
+public class LOVE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+
+		 while(true)
+		{
+			 System.out.println("명령 : ");
+			 
+			 StringBuffer str1 = new StringBuffer(sc.next());
+			 StringBuffer str2;
+		
+			 if(str1.equals("그만"));
+		}
+	}
+
+}

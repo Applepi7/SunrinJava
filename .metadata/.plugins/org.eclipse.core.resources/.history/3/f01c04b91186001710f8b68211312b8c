@@ -1,0 +1,53 @@
+package java20416ex01;
+
+import java.util.Scanner;
+
+public class LOVE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		 System.out.print(">> ");	 
+		 String str1 = new String(sc.nextLine());
+		
+		 while(true)
+		{
+			
+			 System.out.println("");
+			 
+			 System.out.print("명령 : ");
+			 String str2 = new String(sc.next());
+			 
+			 String arr[] = str2.split("!");
+			 
+			 String string1[] = str1.split(" ");
+			 
+			
+				 for(int i = 0; i<string1.length; i++){
+					 if(arr[0].equals(string1[i]))
+					 {
+						 string1[i] = arr[1];
+						 
+						 for(i = 0; i<string1.length; i++){
+							 System.out.print(string1[i] + " ");
+						 }
+						 System.out.println("");
+					 }
+					 else{
+						 System.out.println("찾을 수 없습니다!");
+					 }
+				 }
+			 
+			// StringBuffer str2;
+		
+			 if(str1.equals("그만"))
+			 {
+				 System.out.println("종료합니다.");
+				 break;
+			 }
+		}
+	}
+
+}

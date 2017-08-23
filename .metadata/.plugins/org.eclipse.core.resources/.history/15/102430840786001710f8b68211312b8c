@@ -1,0 +1,13 @@
+package java20416ex01;
+
+public class StringBufferSpeedCheck {
+	
+	public static void main(String[] args){
+		StringBuffer s1 = new StringBuffer("Sunrin");
+		StringBuffer s2 = new StringBuffer("Web");
+		
+		long start = System.currentTimeMills();
+		
+	}
+	
+}

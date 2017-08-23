@@ -1,0 +1,21 @@
+
+public class SearchMax {
+	
+	public static int printMax (double... n){
+		int max = -100.0;
+		for(double i : n){
+			if(i > max) max = i;
+		}
+		return max;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SearchMax ref = new SearchMax();
+		ref.printMax(5);
+		ref.printMax(34, 3, 3, 2.5, 56);
+		ref.printMax(new double[]{1, 2, 3});
+		
+	}
+
+}

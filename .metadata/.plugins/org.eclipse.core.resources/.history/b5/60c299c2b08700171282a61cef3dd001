@@ -1,0 +1,20 @@
+
+public class SearchMax {
+	
+	public static int printMax (int... n){
+		int max = -100;
+		for(int i : n){
+			if(i > max) max = i;
+		}
+		return max;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SearchMax ref = new SearchMax();
+		ref.printMax();
+		ref.printMax(34, 3, 3, 2.5, 56);
+		
+	}
+
+}

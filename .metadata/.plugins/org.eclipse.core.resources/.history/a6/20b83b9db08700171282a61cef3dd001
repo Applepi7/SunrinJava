@@ -1,0 +1,16 @@
+
+public class SearchMax {
+	
+	public static int printMax (int... n){
+		int max = -100;
+		for(int i : n)
+		return 
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SearchMax ref = new SearchMax();
+		
+	}
+
+}

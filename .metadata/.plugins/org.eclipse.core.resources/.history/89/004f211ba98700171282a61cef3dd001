@@ -1,0 +1,13 @@
+
+public class ToStringExam1 {
+
+	class Point {
+		private
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
