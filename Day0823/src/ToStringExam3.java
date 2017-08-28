@@ -5,11 +5,13 @@ class Point {
 		this.x = x;
 		this.y = y;
 	}
-
+	
 	@Override
-	public String toString(){
-		return "x : " + x + "  y : " + y;
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
 	}
+
+
 }
 
 public class ToStringExam3 {
@@ -18,7 +20,6 @@ public class ToStringExam3 {
 		// TODO Auto-generated method stub
 		Point p = new Point(10, 20);
 		System.out.println(p.toString());
-
 	}
 
 }

@@ -1,0 +1,32 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+public class Exam4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InputStream is = null;
+		OutputStream os = null;
+		int bin = 0;
+		
+		try {
+		while(true){
+			is = new FileInputStream("a.jpg");
+			os = new FileOutputStream("b.jpg");
+			while(true) {
+				bin = is.read();
+				if(bin == -1)
+					break;
+				
+				os.write(bin);
+				}
+			}
+		} catch (IOException e){
+			System.err.println(e);
+		}
+	}
+
+}

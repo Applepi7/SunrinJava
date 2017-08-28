@@ -1,0 +1,10 @@
+
+public class ExceptionExam2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] irum = new String[3];
+		irum[3] = "ȫ�浿";
+		}
+
+}
